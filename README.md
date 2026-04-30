@@ -159,7 +159,7 @@ import torchani
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# --- Rebuild the AEV computer ---
+# Rebuild the AEV computer 
 def init_aev_computer():
     Rcr = 5.2
     Rca = 3.5
@@ -182,7 +182,7 @@ def init_aev_computer():
 
 aev_computer = init_aev_computer()
 
-# --- Rebuild the network architecture ---
+#  Rebuild the network architecture 
 class Bigger_lowerDO_AtomicNet(nn.Module):
     def __init__(self):
         super().__init__()
@@ -209,7 +209,7 @@ nets = [Bigger_lowerDO_AtomicNet() for _ in range(4)]
 ani_net = torchani.ANIModel(nets)
 model = nn.Sequential(aev_computer, ani_net).to(device)
 
-# --- Load weights ---
+#  Load weights 
 model.load_state_dict(
     torch.load('best_model_fold5_MAE101.pt', map_location=device, weights_only=True)
 )
