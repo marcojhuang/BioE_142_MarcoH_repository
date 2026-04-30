@@ -244,6 +244,7 @@ Input (384) → Linear(512) → BN → ReLU → Dropout(0.05)
 Four copies (one per element: H, C, N, O) are combined via `torchani.ANIModel`.
 
 **Parameters Per Individual Atomic Network:** 363,265
+
 **Total parameters:** 1,453,060
 
 ---
