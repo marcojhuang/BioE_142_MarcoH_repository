@@ -1,4 +1,4 @@
-# TorchANI Neural Network Potential — ANI Energy Prediction
+# TorchANI Neural Network Potential — ANI Prediction of Molecular Energies
 
 Training an ANI-style neural network potential (NNP) to predict molecular energies for small organic molecules (H, C, N, O) using [TorchANI](https://github.com/aiqm/torchani) and PyTorch on the ANI-1 GDB dataset.
 
