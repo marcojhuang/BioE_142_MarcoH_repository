@@ -152,6 +152,8 @@ jupyter notebook B142_MH_final_projc_6.ipynb
 
 To load the best saved weights and run evaluation:
 
+There are two .pt model weight files: MH_final_proj_weights_6.pt and best_model_fold5_MAE101.pt. The first is from the single run that produced MAE = 1.17 kcal/mol. This allowed me to decide hyperparameters before doing K-Fold CV that produced best_model_fold5_MAE101.pt.
+
 ```python
 import torch
 import torch.nn as nn
