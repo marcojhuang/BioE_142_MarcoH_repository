@@ -130,21 +130,6 @@ This project uses the **ANI-1 GDB s01–s04** dataset (`ani_gdb_s01_to_s04.h5`),
 | Test (10%) | 86,489 |
 | **Total** | **864,896** |
 
-### How to obtain the dataset
-
-The dataset file `ani_gdb_s01_to_s04.h5` must be downloaded separately (it is not included in this repo due to size).
-
-1. **From your course (bCourses):** If you have access, download from the course materials page.
-2. **From the TorchANI data repository:** See [https://github.com/aiqm/torchani/blob/master/torchani/resources/](https://github.com/aiqm/torchani/blob/master/torchani/resources/) or the [ANI-1 dataset page](https://doi.org/10.6084/m9.figshare.c.3846712.v1) on Figshare.
-
-Place the downloaded file in the same directory as the notebook:
-
-```bash
-mv ani_gdb_s01_to_s04.h5 <REPO_DIR>/
-```
-
----
-
 ## Usage
 
 ### Training from scratch
