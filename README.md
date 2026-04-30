@@ -74,8 +74,8 @@ The model was developed as a final project for a UC Berkeley course (B142) and t
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
-cd <REPO_NAME>
+git clone https://github.com/<YOUR USERNAME>/BioE_142_MarcoH_repository.git
+cd <DIRECTORY TO REPO>
 ```
 
 ### 2. Create the conda environment
