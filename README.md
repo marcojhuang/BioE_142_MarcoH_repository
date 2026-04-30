@@ -54,13 +54,13 @@ The model was developed as a final project for a UC Berkeley course (B142) and t
 ```
 .
 ├── README.md
-├── B142_MH_final_projc_6.ipynb        # Main Jupyter notebook (training + evaluation)
+├── B142_MH_final_projc_6.ipynb         # Main Jupyter notebook (training + evaluation)
 ├── torch_env_b142.yml                  # Conda environment file
 ├── best_model_fold5_MAE101.pt          # Best model weights (fold 5, MAE ≈ 1.01 kcal/mol)
 ├── MH_final_proj_weights_6.pt          # Weights from single-split best run (MAE ≈ 1.17 kcal/mol)
 ├── ani_gdb_s01_to_s04.h5               # ANI-1 GDB s01-s04 dataset
-├── MH_B142_final_writeup      # Rendered notebook (PDF)
-└── notebook_B142_MH_final_projc_6       # Final Writeup (PDF)
+├── MH_B142_final_writeup               # Rendered notebook (PDF)
+└── notebook_B142_MH_final_projc_6      # Final Writeup (PDF)
 ```
 
 ---
