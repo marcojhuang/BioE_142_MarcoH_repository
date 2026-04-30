@@ -24,7 +24,7 @@ Training an ANI-style neural network potential (NNP) to predict molecular energi
 
 This project trains per-element atomic neural networks following the ANI framework ([Smith et al., Chem. Sci., 2017, 8, 3192](https://doi.org/10.1039/C6SC05720A)). Each atom type (H, C, N, O) has its own subnetwork. Atomic Environment Vectors (AEVs) encode each atom's local chemical environment using radial and angular symmetry functions, and the per-atom energy predictions are summed to produce a total molecular energy.
 
-The model was developed as a final project for a UC Berkeley course (B142) and trained on the NERSC / UC Berkeley HPC cluster using a single NVIDIA GPU.
+The model was developed as a final project for a UC Berkeley course (B142) and trained on the UC Berkeley Savio cluster using a single NVIDIA GPU.
 
 ---
 
@@ -255,6 +255,7 @@ Input (384) → Linear(512) → BN → ReLU → Dropout(0.05)
 
 Four copies (one per element: H, C, N, O) are combined via `torchani.ANIModel`.
 
+**Parameters Per Individual Atomic Network:** 363,265
 **Total parameters:** 1,453,060
 
 ---
