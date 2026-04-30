@@ -224,7 +224,7 @@ print("Model loaded successfully.")
 
 ## Model Architecture
 
-### AEV (Atomic Environment Vector) — 384 dimensions
+### AEV (Atomic Environment Vector) : 384 dimensions
 
 | Component | Cutoff (Å) | Shifts | Elements |
 |---|---|---|---|
@@ -283,7 +283,7 @@ Four copies (one per element: H, C, N, O) are combined via `torchani.ANIModel`.
 
 ## Acknowledgements
 
-- [TorchANI](https://github.com/aiqm/torchani) — Xiang Gao, Farhad Ramezanghorbani, et al.
-- ANI-1 dataset and methodology — [Smith, Isayev, Roitberg. *Chem. Sci.*, 2017, 8, 3192](https://doi.org/10.1039/C6SC05720A)
+- [TorchANI](https://github.com/aiqm/torchani) : Xiang Gao, Farhad Ramezanghorbani, et al.
+- ANI-1 dataset and methodology : [Smith, Isayev, Roitberg. *Chem. Sci.*, 2017, 8, 3192](https://doi.org/10.1039/C6SC05720A)
 - Training adapted from the [TorchANI training example](https://aiqm.github.io/torchani/examples/nnp_training.html)
 - UC Berkeley B142 course staff
